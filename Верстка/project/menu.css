@@ -1,0 +1,146 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    width: 100%;
+    margin-top: 140px;
+   }
+
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient( #0bcbfb,#8ffca0) no-repeat;
+}
+
+
+
+.header_wrapper {
+    background-color: #3a3a3a;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.header_logo__wrapper {
+    width: 40%;
+
+}
+.header_logo__a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    text-decoration: none;
+    margin: 0 90px 0 200px;
+}
+.logo-text {
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30pt;
+}
+
+.logo {
+    margin: 12px 20px 10px 0px;
+    width: 60px;
+    height: 70px;
+}
+.header_menu *{
+    padding-top: 10px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    text-transform:uppercase;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    justify-content: center;
+   }
+
+   .header_menu > ul{
+    display: flex;
+    justify-content: space-evenly;
+    
+   }
+   .header_menu > li{
+    text-align: center;
+    min-width: 30px;
+    align-content: center;
+    justify-content: center;
+   }
+   .header_menu > ul li{
+    position: relative;
+    text-align: center;
+    
+    
+   }
+   .header_menu > ul li a{
+    display: flex;
+    margin: 0;
+    padding: 28px 44.5px;
+    text-align: center;
+    font-size: 22px; 
+    min-width: 100px;
+    color: #ececed;
+    text-decoration: none;
+    transition: all 0.3s ease;
+   }
+
+   .header_menu li a:hover{
+    transition: all 0.3s ease;
+    background-color: #0bcbfb;
+    color: #3a3a3a;
+    text-align: center;
+   }
+   @media screen and (max-width:1024px) {
+    .header_logo__wrapper {
+        margin: 0 auto;
+        width: 100%;
+    }
+    .header_logo__a {
+        justify-content: center;
+    }
+    }
+    @media screen and (max-width:1366px) {
+        .header_logo__wrapper {
+            margin: 0 auto;
+            width: 100%;
+        }
+        .header_logo__a {
+            justify-content: center;
+        }
+        .header_menu__wrapper {
+            margin: 0 auto;
+            justify-content: center;
+        }
+    }
+    @media screen and (max-width:800px) {
+        .content_wrapper {
+            width: 550px;
+        }
+    }

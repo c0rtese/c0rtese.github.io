@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    height: auto;
+}
+.op {
+    height: 1000px;
+    width: 1200px;
+    margin: 0 auto;
+}
+.photo {
+    display: block;
+    float: left;
+}
+.text {
+    padding-left: 30px;
+    margin-left: 380px;
+    display: block;
+}
+h3 {
+    font-size: 35px;
+}
+footer {
+    background-color: #3a3a3a;
+    height: 70px;
+    width: 1920px;
+}
+.mail {
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+}
+.foot {
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 500px;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+h1 {
+    margin-top: 0;
+    margin-bottom: 80px;
+}
+hr {
+    border: none;
+    background-color: #3a3a3a;
+    height: 2px;
+}
